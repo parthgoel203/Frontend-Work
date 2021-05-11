@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .firstimage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .rida1{
+    margin: 30px 98px 0 98px;
+  }
+  .imageline2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .imageline3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .imageline3style{
+    border-style: solid;
+    border-color: grey;
+    box-shadow: 3px 3px 3px 3px grey;
+  }
+  .imageline3text1{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    color: grey;
+    padding: 0px 0px 0px 15px;
+    line-height: 0.7;
+  
+  }
+  .imageline3text2{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    padding-left: 20px;
+  
+  }
+  .imageline3text3{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    padding-left: 20px;
+    color: red;
+    margin-top: 0;
+  
+  }
+  .imageline3text1black{
+    color: black;
+  }
+  .linethrough{
+    text-decoration: line-through;
+    color: black;
+    font-size: 15px;
+  }
+  .mininavbarright{
+    padding: 0 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    float: right;
+    display: inline;
+  }
+  li {
+    float: left;
+    padding: 12px;
+  
+  }
+  .Beauty{
+    border-style: solid;
+    border-color: #ffff99;
+  }
+  .popularcategories{
+    background-color: lightgrey;
+    width: 100%;
+  }
+  .popularcategories1{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+  
+  }
+  .rida2{
+  margin: 30px 98px 0 98px;
+  }
+  .lastpagepart1{
+    display: grid;
+    float: left;
+    padding: 0 20px 0 20px;
+  }
+  .lastpagepart2{
+    display: grid;
+    float: right;
+  padding: 0 20px 0 20px;
+  margin-left: 20px;
+  }
+  
+  .lastpagepart2text1{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    float: right;
+  }
+  .lastpagepart2text1{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    color: grey;
+    line-height: 0.7;
+    padding-left: 10px;
+    /* padding: 0 20px 0 20px; */
+  
+  }
+  .lastpagepart2text2{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    color: grey;
+    padding: 0px 0px 0px 15px;
+    line-height: 0.7;
+  
+  }
+  .lastpagepart2image{
+    border-style: solid;
+    border-color: grey;
+    box-shadow: 3px 3px 3px 3px grey;
+  }
+  .lastpagepart3image{
+    border-style: solid;
+    border-color: grey;
+    box-shadow: 3px 3px 3px 3px grey;
+  }
+  .lastpagepart3text3style{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      float: right;
+      padding-left: 20px;
+      color: red;
+      margin-top: 0;
+  }
+  .floatleft{
+    color: grey;
+    line-height: 0.7;
+  }
+  .floatleft1{
+    color: black;
+  }
+  .textimage1line1{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  }
+  .textimage1line2{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    text-decoration: solid;
+    font-weight: 800;
+  }
+  .textimage1line3{
+    position: absolute;
+    top: 57%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: rgb(129, 124, 124);
+  }
+  .textimage1line4{
+    position: absolute;
+    padding: 10px 15px 10px 15px;
+    background-color: orange;
+    border-radius: 5%;
+    top: 75%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+  }
+  .imageline1{
+    position: relative;
+    text-align: center;
+    color: black;
+  }
