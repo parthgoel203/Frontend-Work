@@ -122,7 +122,7 @@ body {
     float: right;
     display: inline;
   }
-  li {
+ .listitem{
     float: left;
     padding: 12px;
   
@@ -241,4 +241,22 @@ body {
     position: relative;
     text-align: center;
     color: black;
+  }
+.footerleft{
+margin: 100px;
+  }
+  .footerli{
+    padding: 25px 0 25px 100px;
+    float: left;
+    list-style-type: none;
+    /* background-color: yellow; */
+  }
+  .footerright{
+    padding-top: 17px;
+    padding-left: 1150px;
+  }
+  .footer{
+    background-color: rgb(255, 174, 0);
+    margin: 0;
+    padding-bottom: 13px;
   }
