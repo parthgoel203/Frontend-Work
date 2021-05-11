@@ -151,7 +151,7 @@ body {
   .lastpagepart2{
     display: grid;
     float: right;
-  padding: 0 20px 0 20px;
+  padding: 0 30px 0 30px;
   margin-left: 20px;
   }
   
@@ -183,6 +183,7 @@ body {
     box-shadow: 3px 3px 3px 3px grey;
   }
   .lastpagepart3image{
+    margin: 10px;
     border-style: solid;
     border-color: grey;
     box-shadow: 3px 3px 3px 3px grey;
